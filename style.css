@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(70, 70, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fondo-negroF{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+.fondo-negro{
+    width: 350px;
+    height: 620px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.barra-sup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+.icon1{
+    width: 10%;
+}
+.text-barra-sup{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.img1F img{
+    width: 320px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+    filter: brightness(0.3);
+}
+.div-img1{
+    height: 180px;
+    position: relative;
+}
+
+.img1{
+    border-radius: 20px;
+}
+
+
+.iconos-juegos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+.text-icon-juegos{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.slide-juegos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-juegos1F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+}
+.slide-juegos1F img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.name-juegos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color-nameJ{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+.name1{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+.btn-jugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gm1{
+    background-color: rgba(59, 59, 59, 0.25);
+    border-radius: 5px;
+    border: 1px solid #9b9e9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.gm1 h1{
+    color: #00DF7F;
+}
+.nav{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #252628;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    padding-left: 7px;
+    padding-right: 23px;
+}
+.opcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opcion i{
+    font-size: 20px;
+}
+.opcion span{
+    color: #9B9E9F;
+}
+.select span{
+    color: #00DF7F !important;
+    font-weight: bold;
+}
+.frente-img{
+    color: white;
+    width: 180px;
+    position: relative;
+    top: -180px;
+    left: 40px;
+}
+.juego-frente{
+    display: flex;
+}
+.juego-frente img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.circulo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circulo i{
+    font-size: 19px;
+    margin-left: 3px;
+}
+.bolt{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bolt i{
+    font-size: 12px;
+    margin-left: 0;
+}
